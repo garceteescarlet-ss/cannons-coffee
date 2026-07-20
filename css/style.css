@@ -120,6 +120,10 @@ img {
 
 }
 
+.cards img {
+  border-radius: 10px;
+}
+
 .grid2 {
   background-color: var(--lightblue);
 }
@@ -136,6 +140,7 @@ img {
   display: grid;
   grid-template-columns: 1fr;
   gap: 1rem;
+  margin: 1rem;
 }
 .button2 {
   display: inline-block;
@@ -168,6 +173,7 @@ footer {
   padding: 0.5rem;
   border-radius: 20px;
   text-decoration: none;
+  color: var(--white)
 
 }
 
@@ -175,17 +181,12 @@ footer {
   display: grid;
   grid-template-columns: 1fr 1fr;
   background-color: var(--white);
-  width: 100%;
+  max-width: 100%;
+  gap: 1rem;
+  /* padding: 0%; */
+  align-items: center;
+  justify-content: center;
 
-}
-.lattepageimg, .latte-text {
-display: flex;
-flex-direction: column;
-justify-content: center;
-gap: 1rem;
-padding: 1rem;
-align-items: flex-start;
-text-align: left;
 }
 
 @media (min-width: 650px) {
