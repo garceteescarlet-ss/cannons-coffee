@@ -126,6 +126,7 @@ img {
 
 .grid2 {
   background-color: var(--lightblue);
+  padding: 1rem;
 }
 
 .gridtext{
