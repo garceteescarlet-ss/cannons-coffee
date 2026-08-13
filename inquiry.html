@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+    <div class="container">
+
+        <header>
+            <div class="logo">
+                <img src="images/logo-nav.png" alt="Cannons coffee logo">
+                <h1>Cannons Coffee</h1>
+            </div>
+            <nav>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="latte.html">Coffee</a></li>
+                    <li><a href="https://www.starbucks.com" target="_blank">About</a></li>
+                    <li><a href="mailto:escarletmaca@gmail.com" target="_blank">Contact</a></li>
+                    <li><a href="inquiry.html">Inquiry</a></li>
+                    <li><a href="login.html">Login</a></li>
+                </ul>
+            </nav>
+
+        </header>
+        <main>
+            <h2>Contact Cannons Coffee</h2>
+            
+            <form id="inquiry-form">
+            
+                <label for="name">Your Name:</label><br>
+                <input type="text" id="name" name="name" required><br><br>
+            
+                <label for="email">Your Email:</label><br>
+                <input type="email" id="email" name="email" required><br><br>
+            
+                <label for="phone">Your Phone Number:</label><br>
+                <input type="tel" id="phone" name="phone" required><br><br>
+            
+                <label for="comments">Comments:</label><br>
+                <textarea id="comments" name="comments" rows="5" required></textarea><br><br>
+            
+                <label for="flavor">Favorite Coffee Flavor:</label><br>
+                <select id="flavor" name="flavor" required>
+                    <option value="">Choose a flavor</option>
+                    <option value="Hazelnut">Hazelnut</option>
+                    <option value="Caramel">Caramel</option>
+                    <option value="Mocha">Mocha</option>
+                </select><br><br>
+            
+                <fieldset>
+                    <legend>What are you interested in?</legend>
+            
+                    <label>
+                        <input type="radio" name="interest" value="buying coffee" required>
+                        Buying Coffee
+                    </label><br>
+            
+                    <label>
+                        <input type="radio" name="interest" value="seeking employment">
+                        Seeking Employment
+                    </label>
+                </fieldset>
+            
+                <br>
+            
+                <button type="submit">Submit</button>
+            
+            </form>
+            
+            <div class="message"></div>
+
+
+        </main>
+        <footer>
+            <img src="images/logo-footer.png" alt="Beans of Joy! Est. 2014">
+            <p>&copy; 2026 Cannons Coffee. All Rights Reserved.</p>
+        </footer>
+
+
+    </div>
+<script src="js/custom-inquiry.js"></script>
+
+</body>
+
+
+</html>
